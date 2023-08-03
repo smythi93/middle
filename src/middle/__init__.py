@@ -4,7 +4,7 @@ def middle(x, y, z):
         if x < y:
             m = y
         elif x < z:
-            m = y
+            m = x
     else:
         if x > y:
             m = y
