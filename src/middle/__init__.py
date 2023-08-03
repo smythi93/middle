@@ -3,7 +3,7 @@ def middle(x, y, z):
         if x < y:
             return y
         elif x < z:
-            return y
+            return x
     else:
         if x > y:
             return y
