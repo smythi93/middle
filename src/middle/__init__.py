@@ -1,12 +1,13 @@
 def middle(x, y, z):
+    m = z
     if y < z:
         if x < y:
-            return y
+            m = y
         elif x < z:
-            return x
+            m = y
     else:
         if x > y:
-            return y
+            m = y
         elif x > z:
-            return x
-    return z
+            m = x
+    return m
